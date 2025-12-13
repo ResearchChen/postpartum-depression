@@ -319,3 +319,8 @@
 	text-align: center;
 	bottom: 120px;
 }
+
+#section-2 ul,
+#section-3 ul {
+	padding-left: 40px;
+}
