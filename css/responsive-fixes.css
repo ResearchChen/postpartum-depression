@@ -1,0 +1,308 @@
+.wrapper {
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    #header h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .uk-margin {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    #navigation ul li {
+        left: 0;
+    }
+    
+    .uk-navbar-right {
+        position: static;
+        right: auto;
+        top: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header h1 {
+        font-size: 24px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    #navigation ul.uk-tab {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #navigation ul li {
+        left: 0;
+        margin: 5px 0;
+    }
+    
+    .uk-navbar-right {
+        position: static;
+        margin-top: 10px;
+    }
+    
+    #slider {
+        font-size: 16px;
+    }
+    
+    #slider ul li {
+        width: 100% !important;
+    }
+    
+    .uk-section-default .uk-grid-match {
+        flex-direction: column;
+    }
+    
+    .uk-section-default .uk-container h2 {
+        font-size: 24px;
+    }
+    
+    .uk-section-default .uk-container h3 {
+        font-size: 18px;
+    }
+    
+    #section-2 img,
+    #section-3 img {
+        float: none !important;
+        display: block;
+        margin: 0 auto 20px auto;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #section-2 .uk-overlay {
+        width: 90%;
+        max-width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+    #section-2 p {
+        font-size: 18px;
+        word-wrap: break-word;
+    }
+    
+    #section-3 ul li {
+        width: 100%;
+        left: 0;
+    }
+    
+    #section-3 p {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .care-display img {
+        max-width: 90%;
+        top: 20px;
+        margin-bottom: -300px;
+        border-radius: 20px;
+        border-width: 5px;
+    }
+    
+    .annotation {
+        bottom: 320px;
+    }
+    
+    #annotation-1 {
+        left: 10%;
+    }
+    
+    #annotation-2 {
+        left: 50%;
+    }
+    
+    #annotation-3 {
+        left: 70%;
+    }
+    
+    #annotation-4 {
+        left: 10%;
+    }
+    
+    #annotation-5 {
+        left: 50%;
+    }
+    
+    #annotation-6 {
+        left: 70%;
+    }
+    
+    #annotation-7 {
+        left: 10%;
+    }
+    
+    #annotation-8 {
+        left: 50%;
+    }
+    
+    #annotation-9 {
+        left: 70%;
+    }
+    
+    .annotation-button {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+    }
+    
+    .annotation-content {
+        max-width: 80%;
+        font-size: 14px;
+        position: fixed;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 100;
+    }
+    
+    .care-display-controls ul {
+        border-top: none;
+        width: 100%;
+        margin: 80px auto 30px auto;
+    }
+    
+    .care-display-controls li:nth-of-type(1),
+    .care-display-controls li:nth-of-type(2),
+    .care-display-controls li:nth-of-type(3) {
+        left: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    .care-display-controls li button {
+        font-size: 16px;
+    }
+    
+    #stayConnected {
+        text-align: center;
+    }
+    
+    #stayConnected h3 {
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    #stayConnected ul {
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    
+    #stayConnected ul li {
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    #addConcerns h3 {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #addConcerns form {
+        left: 0;
+        bottom: 0;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    
+    #addConcerns input {
+        width: 100%;
+        max-width: 300px;
+        font-size: 18px;
+        height: 50px;
+    }
+    
+    #addConcerns button {
+        position: static;
+        right: 0;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    
+    #moreInfo ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+    
+    #moreInfo ul li {
+        bottom: 0;
+        position: static;
+        margin: 10px 0;
+    }
+    
+    #disclaimer {
+        bottom: 0;
+        position: static;
+        padding: 20px;
+    }
+    
+    #disclaimer p {
+        font-size: 14px;
+    }
+    
+    .uk-section-default .uk-grid-match > div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #header h1 {
+        font-size: 18px;
+    }
+    
+    #navigation ul li a {
+        font-size: 12px;
+    }
+    
+    .uk-section-default .uk-container ul li {
+        font-size: 14px;
+    }
+    
+    #section-2 ul li,
+    #section-3 ul li {
+        font-size: 14px;
+    }
+    
+    #section-2 p {
+        font-size: 14px;
+    }
+    
+    .care-display img {
+        margin-bottom: -200px;
+    }
+    
+    .annotation {
+        bottom: 220px;
+    }
+    
+    .annotation-content {
+        font-size: 12px;
+    }
+}
