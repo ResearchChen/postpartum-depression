@@ -1,0 +1,603 @@
+.wrapper {
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    #header h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .uk-margin {
+        position: static;
+        right: auto;
+        top: auto;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    
+    .uk-navbar-right {
+        position: static;
+        right: auto;
+        top: auto;
+    }
+    
+    #navigation ul li {
+        left: 0;
+    }
+    
+    #section-2 img {
+        max-width: 350px;
+        padding-top: 0;
+    }
+    
+    #section-3 img {
+        max-width: 350px;
+        padding-top: 0;
+    }
+    
+    .care-display-controls ul {
+        gap: 20px;
+    }
+    
+    .care-display-controls li:nth-of-type(1) {
+        left: -50px;
+    }
+    
+    .care-display-controls li:nth-of-type(2) {
+        left: 50px;
+    }
+    
+    .care-display-controls li:nth-of-type(3) {
+        left: 140px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        overflow: hidden;
+    }
+    
+    #header h1 {
+        font-size: 20px;
+        padding: 10px 5px;
+    }
+    
+    .uk-margin {
+        position: static;
+        right: auto;
+        top: auto;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    
+    #navigation ul.uk-tab {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #navigation ul li {
+        left: 0;
+        margin: 4px 0;
+    }
+    
+    #navigation ul li a {
+        font-size: 13px;
+    }
+    
+    .uk-navbar-right {
+        position: static;
+        right: auto;
+        top: auto;
+        margin-top: 10px;
+    }
+    
+    #content {
+        overflow-x: hidden;
+    }
+    
+    #breadcrumb a {
+        font-size: 14px;
+    }
+    
+    #slider {
+        font-size: 14px;
+    }
+    
+    #slider ul li {
+        width: 100% !important;
+    }
+    
+    #slider ul li p {
+        font-size: 13px;
+        padding: 8px;
+    }
+    
+    .uk-section-default .uk-grid-match {
+        flex-direction: column;
+    }
+    
+    .uk-section-default .uk-container h2 {
+        font-size: 20px;
+    }
+    
+    .uk-section-default .uk-container h3 {
+        font-size: 16px;
+    }
+    
+    .uk-section-default .uk-container p {
+        font-size: 14px;
+    }
+    
+    .uk-section-default .uk-container ul li {
+        font-size: 13px;
+    }
+    
+    .uk-card {
+        margin-bottom: 15px;
+    }
+    
+    #section-2 {
+        padding: 20px 0;
+    }
+    
+    #section-2 h2 {
+        font-size: 20px;
+    }
+    
+    #section-2 img {
+        float: none !important;
+        display: block;
+        margin: 0 auto 20px auto;
+        max-width: 70%;
+        width: auto;
+        height: auto;
+        padding: 0;
+        animation: none;
+    }
+    
+    #section-2 ul {
+        padding: 0 10px;
+    }
+    
+    #section-2 ul li {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    
+    #section-2 .uk-background-cover {
+        min-height: auto;
+        padding: 20px 10px;
+    }
+    
+    #section-2 .uk-overlay {
+        position: relative;
+        width: 90%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+    #section-2 p {
+        font-size: 14px;
+        max-width: 100%;
+        word-wrap: break-word;
+    }
+    
+    #section-3 {
+        padding: 20px 0;
+    }
+    
+    #section-3 h2 {
+        font-size: 20px;
+    }
+    
+    #section-3 img {
+        float: none !important;
+        display: block;
+        margin: 0 auto 20px auto;
+        max-width: 50%;
+        width: auto;
+        height: auto;
+        padding: 0;
+        animation: none;
+    }
+    
+    #section-3 ul {
+        padding: 0 10px;
+    }
+    
+    #section-3 ul li {
+        font-size: 13px;
+        position: static;
+        left: auto;
+        width: 100%;
+    }
+    
+    #section-3 p {
+        position: static;
+        left: auto;
+        top: auto;
+        width: 100%;
+        padding: 0 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .care-display {
+        overflow: hidden;
+        padding: 20px 10px 60px 10px;
+    }
+    
+    .care-display-image {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .care-display-image ul li {
+        position: relative;
+    }
+    
+    .care-display img {
+        position: static;
+        top: auto;
+        max-width: 80%;
+        margin: 20px auto;
+        border-radius: 40px;
+        border-width: 8px;
+        animation: none;
+    }
+    
+    .annotation {
+        position: absolute;
+        bottom: auto;
+        margin: 0;
+    }
+    
+    #annotation-1 { top: 12%; left: 12%; }
+    #annotation-2 { top: 38%; left: 78%; }
+    #annotation-3 { top: 65%; left: 10%; }
+    #annotation-4 { top: 14%; left: 10%; }
+    #annotation-5 { top: 40%; left: 80%; }
+    #annotation-6 { top: 68%; left: 12%; }
+    #annotation-7 { top: 16%; left: 14%; }
+    #annotation-8 { top: 44%; left: 76%; }
+    #annotation-9 { top: 70%; left: 16%; }
+    
+    .annotation-button {
+        font-size: 14px;
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+    }
+    
+    .annotation-content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80vw;
+        max-width: 300px;
+        font-size: 14px;
+        z-index: 1000;
+        padding: 15px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    
+    .care-display-controls {
+        margin-top: 20px;
+    }
+    
+    .care-display-controls ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+        margin: 20px auto;
+        padding-top: 10px;
+        border-top: none;
+    }
+    
+    .care-display-controls li,
+    .care-display-controls li:nth-of-type(1),
+    .care-display-controls li:nth-of-type(2),
+    .care-display-controls li:nth-of-type(3) {
+        position: static;
+        left: auto;
+        bottom: auto;
+    }
+    
+    .care-display-controls li button {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+    
+    .care-display-controls li button span {
+        width: 10px;
+        height: 10px;
+    }
+    
+    #footer {
+        overflow: hidden;
+    }
+    
+    #stayConnected {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #stayConnected h3 {
+        width: 100%;
+        padding-top: 25px;
+        font-size: 18px;
+    }
+    
+    #stayConnected ul {
+        width: 100%;
+        position: static;
+        left: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #stayConnected ul li {
+        font-size: 32px;
+        margin: 6px;
+    }
+    
+    #addConcerns {
+        float: none;
+        width: 100%;
+    }
+    
+    #addConcerns h3 {
+        position: static;
+        left: auto;
+        bottom: auto;
+        width: 100%;
+        text-align: center;
+        padding-top: 25px;
+        font-size: 18px;
+    }
+    
+    #addConcerns form {
+        position: static;
+        left: auto;
+        bottom: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 15px;
+    }
+    
+    #addConcerns input {
+        width: 100%;
+        max-width: 260px;
+        font-size: 14px;
+        height: 40px;
+    }
+    
+    #addConcerns button {
+        position: static;
+        right: auto;
+        margin-top: 8px;
+        font-size: 24px;
+    }
+    
+    #moreInfo {
+        clear: both;
+        padding-top: 15px;
+    }
+    
+    #moreInfo ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #moreInfo ul li {
+        position: static;
+        bottom: auto;
+        margin: 6px 0;
+    }
+    
+    #moreInfo ul li a {
+        font-size: 14px;
+    }
+    
+    #disclaimer {
+        position: static;
+        bottom: auto;
+        padding: 15px 10px;
+        clear: both;
+    }
+    
+    #disclaimer p {
+        font-size: 11px;
+    }
+    
+    .uk-section-default .uk-grid-match > div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #header h1 {
+        font-size: 16px;
+        padding: 8px 5px;
+    }
+    
+    #navigation ul li a {
+        font-size: 11px;
+    }
+    
+    #breadcrumb a {
+        font-size: 12px;
+    }
+    
+    #slider ul li p {
+        font-size: 11px;
+    }
+    
+    .uk-section-default .uk-container h2 {
+        font-size: 16px;
+    }
+    
+    .uk-section-default .uk-container h3 {
+        font-size: 14px;
+    }
+    
+    .uk-section-default .uk-container p {
+        font-size: 12px;
+    }
+    
+    .uk-section-default .uk-container ul li {
+        font-size: 12px;
+    }
+    
+    #section-2 h2,
+    #section-3 h2 {
+        font-size: 16px;
+    }
+    
+    #section-2 img {
+        max-width: 80%;
+    }
+    
+    #section-3 img {
+        max-width: 60%;
+    }
+    
+    #section-2 ul li,
+    #section-3 ul li {
+        font-size: 12px;
+    }
+    
+    #section-2 p,
+    #section-3 p {
+        font-size: 11px;
+    }
+    
+    .care-display img {
+        max-width: 88%;
+        border-radius: 25px;
+        border-width: 5px;
+    }
+    
+    .annotation-button {
+        font-size: 12px;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+    }
+    
+    .annotation-content {
+        font-size: 12px;
+        width: 85vw;
+        padding: 12px;
+    }
+    
+    .care-display-controls li button {
+        font-size: 11px;
+    }
+    
+    #stayConnected h3,
+    #addConcerns h3 {
+        font-size: 16px;
+    }
+    
+    #stayConnected ul li {
+        font-size: 28px;
+    }
+    
+    #addConcerns input {
+        font-size: 12px;
+        height: 36px;
+        max-width: 220px;
+    }
+    
+    #addConcerns button {
+        font-size: 20px;
+    }
+    
+    #moreInfo ul li a {
+        font-size: 12px;
+    }
+    
+    #disclaimer p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #header h1 {
+        font-size: 14px;
+    }
+    
+    #navigation ul li a {
+        font-size: 10px;
+    }
+    
+    #slider ul li p {
+        font-size: 10px;
+    }
+    
+    .uk-section-default .uk-container h2 {
+        font-size: 14px;
+    }
+    
+    .uk-section-default .uk-container ul li {
+        font-size: 11px;
+    }
+    
+    #section-2 h2,
+    #section-3 h2 {
+        font-size: 14px;
+    }
+    
+    #section-2 ul li,
+    #section-3 ul li {
+        font-size: 11px;
+    }
+    
+    .care-display img {
+        max-width: 92%;
+    }
+    
+    .annotation-button {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 11px;
+    }
+    
+    .annotation-content {
+        font-size: 11px;
+    }
+    
+    .care-display-controls li button {
+        font-size: 10px;
+    }
+    
+    #stayConnected ul li {
+        font-size: 24px;
+    }
+    
+    #addConcerns input {
+        max-width: 180px;
+    }
+}
