@@ -41,10 +41,12 @@
 }
 
 .section-intro {
-    font-weight: 500;
-    margin-bottom: 5px !important;
+    font-family: 'Playfair Display', serif !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
     color: #F3EEEA !important;
     font-style: normal !important;
+    margin-bottom: 5px !important;
 }
 
 @media screen and (max-width: 1024px) {
