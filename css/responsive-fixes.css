@@ -191,12 +191,16 @@
     
     .section-flex img {
         width: 70%;
-        max-width: 100%;
+        max-width: 400px;
         margin: 0 auto;
     }
     
     .section-flex-reverse {
         flex-direction: column;
+    }
+    
+    .section-intro {
+        font-size: 13px !important;
     }
     
     #section-2 {
@@ -507,6 +511,11 @@
     
     .section-flex img {
         width: 80%;
+        max-width: 350px;
+    }
+    
+    .section-intro {
+        font-size: 12px !important;
     }
     
     #section-2 ul li,
@@ -601,8 +610,16 @@
         font-size: 11px;
     }
     
+    .section-intro {
+        font-size: 11px !important;
+    }
+    
     .care-display img {
         max-width: 92%;
+    }
+    
+    .section-flex img {
+        max-width: 300px;
     }
     
     .annotation-button {
